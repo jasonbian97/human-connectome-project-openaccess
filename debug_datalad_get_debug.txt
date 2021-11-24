@@ -1,0 +1,860 @@
+[DEBUG] Command line args 1st pass for DataLad 0.15.3. Parsed: Namespace() Unparsed: ['get', '814548'] 
+[DEBUG] Building doc for <class 'datalad.local.subdatasets.Subdatasets'> 
+[DEBUG] Building doc for <class 'datalad.core.distributed.clone.Clone'> 
+[DEBUG] Building doc for <class 'datalad.distribution.get.Get'> 
+[DEBUG] Parsing known args among ['/home/zhangxing/miniconda3/bin/datalad', '-l', 'debug', 'get', '814548'] 
+[DEBUG] Run ['git', '--git-dir=', 'config', '-z', '-l', '--show-origin'] (cwd=None) 
+[DEBUG] Finished ['git', '--git-dir=', 'config', '-z', '-l', '--show-origin'] with status 0 
+[DEBUG] Determined class of decorated function: <class 'datalad.distribution.get.Get'> 
+[DEBUG] Resolved dataset to get content of ['814548']: /home/zhangxing/AllDatasets/human-connectome-project-openaccess 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] with status 0 
+[DEBUG] Determined class of decorated function: <class 'datalad.local.subdatasets.Subdatasets'> 
+[DEBUG] Resolved dataset to report on subdataset(s): /home/zhangxing/AllDatasets/human-connectome-project-openaccess 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] with status 0 
+[DEBUG] Query subdatasets of None 
+[DEBUG] Query subdatasets underneath paths: [PosixPath('/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200')] 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'for-each-ref', '--format=%(refname:strip=2)', 'refs/heads', 'refs/remotes'] with status 0 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] with status 0 
+[DEBUG] GitRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess).get_content_info(...) 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] with status 0 
+[DEBUG] GitRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess).get_content_info(...) 
+[DEBUG] Query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z'] with status 0 
+[DEBUG] Done query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Done GitRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess).get_content_info(...) 
+[DEBUG] Query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z', '--', 'HCP1200'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z', '--', 'HCP1200'] with status 0 
+[DEBUG] Done query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Done GitRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess).get_content_info(...) 
+[DEBUG] Run ['git', 'config', '-z', '-l', '--show-origin'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', 'config', '-z', '-l', '--show-origin'] with status 0 
+[DEBUG] Run ['git', 'config', '-z', '-l', '--show-origin', '--file', '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.datalad/config'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', 'config', '-z', '-l', '--show-origin', '--file', '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.datalad/config'] with status 0 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'config', '-z', '-l', '--file', '.gitmodules'] with status 0 
+[DEBUG] AnnexRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548).get_content_info(...) 
+[DEBUG] Query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'ls-files', '--stage', '-z'] with status 0 
+[DEBUG] Done query repo: ['ls-files', '--stage', '-z'] 
+[DEBUG] Done AnnexRepo(/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548).get_content_info(...) 
+[DEBUG] Run ['git', 'config', '-z', '-l', '--show-origin'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', 'config', '-z', '-l', '--show-origin'] with status 0 
+[DEBUG] Run ['git', 'config', '-z', '-l', '--show-origin', '--file', '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.datalad/config'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', 'config', '-z', '-l', '--show-origin', '--file', '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.datalad/config'] with status 0 
+[DEBUG] Determine what files match the query to work with 
+[DEBUG] Run ['git', 'annex', 'version', '--raw'] (cwd=None) 
+[DEBUG] Finished ['git', 'annex', 'version', '--raw'] with status 0 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', '-c', 'annex.merge-annex-branches=false', 'annex', 'find', '--not', '--in', '.', '--json', '--json-error-messages', '-c', 'annex.dotfiles=true', '--', '.'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', '-c', 'annex.merge-annex-branches=false', 'annex', 'find', '--not', '--in', '.', '--json', '--json-error-messages', '-c', 'annex.dotfiles=true', '--', '.'] with status 0 
+[DEBUG] Actually getting 80 files 
+[DEBUG] Run ['git', '-c', 'diff.ignoreSubmodules=none', 'annex', 'get', '-c', 'annex.retry=3', '--json', '--json-error-messages', '--json-progress', '-c', 'annex.dotfiles=true', '--', '.'] (cwd=/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548) 
+[DEBUG] Finished ['git', '-c', 'diff.ignoreSubmodules=none', 'annex', 'get', '-c', 'annex.retry=3', '--json', '--json-error-messages', '--json-progress', '-c', 'annex.dotfiles=true', '--', '.'] with status 1 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s5834--ae565ae6d99bcacc8fa931e4eb2684db.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_Diffusion_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s45268--68cdf4349068509eef114119c3f20e62.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_Structural_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s43570--1e38f1f068109397ce5c084d8b0830db.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_Structural_preproc_extended.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s4127--465ae74dac5f1c43998bd03213eea52d.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_Structural_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s373476--ef78ddddb4bf97f2080bc525423dc36d.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST1_fixextended.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s4735--8636724d1ac6244ea482da86c632131c.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST1_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s2731--3fe0deb4ed20d9ea4fd896b827611f15.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST1_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s440430--70e1a8532512f5ea03e8dc467362878c.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST2_fixextended.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s4734--90fbb6ed3dcce15c36889c27e2393df3.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST2_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s2731--108162f3d0cddd40db465f575fb7cb8f.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST2_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s963--9301bbb20ada157f9d9270d12c3843ba.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_rfMRI_REST_fix.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20066--9441ebf4e31c28d5c77df1da03154a27.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_EMOTION_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20066--98100ba4cb953234d7f93c6152a1c7e0.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_EMOTION_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s7108--8d701057d6a28cb3d99548a594d0529b.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_EMOTION_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s4469--add689e6ecaba39ebe116e2602efe0ff.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_EMOTION_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20244--849fd5bde80e529d6949b1e59e916f18.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_GAMBLING_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20244--6c2c97c05a33c6b805c9aa1bd247cfee.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_GAMBLING_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s8121--f10f0f6516880c3a0ecc113f80dce989.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_GAMBLING_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s5531--c93fccb6652b99d05a9dd23874929c3b.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_GAMBLING_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20244--112e3f0c82526bc98bca225ac0fa8390.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_LANGUAGE_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20244--f378dd8015a1b4958d025cfb64b1d3d2.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_LANGUAGE_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s9446--9d45489f9421c2682c1078f0e063cde4.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_LANGUAGE_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s6958--f8d602aab0b2ba080f5260912bc70559.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_LANGUAGE_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s79273--7494a92d69a021a120ad4edec98f3d1d.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_MOTOR_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s79273--bd58afa95513537254e93017572069c4.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_MOTOR_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s7741--29ea6b6f58682f54858c384a34bd2997.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_MOTOR_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s5237--5d1b07bd08ef389420334a265b687076.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_MOTOR_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20600--5caddcff9305441cfa56443e651525ba.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_RELATIONAL_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s20600--91de0059293728f217eb19d184468ddf.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_RELATIONAL_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s7648--a207bbc0e3f660a9b0fc91bead4560db.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_RELATIONAL_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s4947--0c82d7f1c32518aee527500381a069b7.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_RELATIONAL_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s19888--17ddf97afde7de9daa5780b1a993917c.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_SOCIAL_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s19888--9753484faf9a4a110bb70ea74698cf79.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_SOCIAL_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s7662--1bd63a20e97deabe53c9f75ae6922b04.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_SOCIAL_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s5105--f92f9b0f78ceab6e19790943458b8e1d.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_SOCIAL_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s88788--53adc050c9ab1e066e2c0581ea1f93fb.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_WM_analysis_s2.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s88788--ef3ca1ba4495735a6a1523dab998da74.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_WM_analysis_s4.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s11233--3a8da47b31406a4eb3b3e129f0210eb7.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_WM_preproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s9171--ec2ed5b9c5261d184c60ca90c71eb3bc.json', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': '.xdlm/814548_3T_tfMRI_WM_unproc.json'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s748--a01215ee1b3b3a2a3307ffb40c5427bc.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/Diffusion_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s786--09d38e5ad2c4da76f6a2e048eda0032a.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/ReleaseNotes.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1045--3a62abadb9e8fefb614e711b74e05e1d.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/Structural_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s2394--11ebd69a726042eeb87cea4b72c88515.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/Structural_preproc_extended.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s749--ea0ad5d8774ade5183bf9c2c7cb3396f.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/Structural_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s837--e08eb09077c8573b59b8aff3499db300.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/bedpostx.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s960--3d9c587afd77a2658da97225667f29a3.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST1_fixextended.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1058--479110b820b326a696842c4a53f11085.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST1_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s750--f7538bb3387c89a1420c33f1ea8a86b2.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST1_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s960--e2be3693a3b4bda04fb3eb02937d0fcf.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST2_fixextended.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1058--0b1e5983ec2cb206c2badcaeb232874e.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST2_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s750--00287aa74ee715a41142ee0c47b98226.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST2_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1030--93b241f7391813c43b51a7358c91968c.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/rfMRI_REST_fix.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s971--61b163fc4143042e5add45c12c6bec5c.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_EMOTION_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s971--96981ca900dd20b92f6ac65d741e1ebe.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_EMOTION_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1060--8ede939ffc8258d1f814dd51ad50fba6.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_EMOTION_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s752--1feda695d7bd01ccf46825f11cb0d0a1.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_EMOTION_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s972--f7b46ce14689d748fde214705ffc4b5e.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_GAMBLING_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s972--d22053374247471a820437f16a94ed14.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_GAMBLING_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1061--187c8ef139e87c5074fa3e6400fd3115.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_GAMBLING_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s753--15445739a657ee560f8ba671f124f060.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_GAMBLING_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s972--7225cd1265deece5690a17c6468909da.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_LANGUAGE_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s972--e8b7cd82fc6af029e57657519bfbbc9d.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_LANGUAGE_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1061--b3d912b3c02f3c8e432d1ce12f8ca10a.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_LANGUAGE_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s753--7aee4876dd199b86d81c2a481237013b.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_LANGUAGE_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s969--ed277812e6d8b60b131a2553e045ace1.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_MOTOR_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s969--7b97c76cae1c26965f4c9533b050a33e.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_MOTOR_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1058--a01d457863c9ca9130fdd6b79fb62307.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_MOTOR_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s750--edd3249eec57757b247e79b8042afbf7.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_MOTOR_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s974--af227d4650ef655e2f5b02c69c5c82de.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_RELATIONAL_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s974--e78c6438be26351c92a634afbec8eda8.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_RELATIONAL_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1063--579748ed0af2365c3163f62a9078866b.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_RELATIONAL_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s755--9409396ce93d3cc8d6bb5dd31668e091.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_RELATIONAL_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s970--bdcc643fc7c325608cce7a3f7ab9700b.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_SOCIAL_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s970--4c5213b6884b7253794eda8c89af8b14.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_SOCIAL_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1059--37ca4ae985ff43130178b4acfc29beb4.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_SOCIAL_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s751--f7faedf580d7df624b861e550094e31b.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_SOCIAL_unproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s966--ce4a24d68eed4e72b07e5a3c0ffbafb4.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_WM_analysis_s2.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s966--d1a149e1aee3a9897cf1e09e674e3728.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_WM_analysis_s4.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s1055--85e50cfd0a78e19e00a1ed9d93677b56.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_WM_preproc.txt'} 
+[DEBUG] received JSON result from annex: {'command': 'get', 'wanted': [], 'note': 'from datalad...\nUnable to access these remotes: datalad\n(Note that these git remotes have annex-ignore set: origin)', 'success': False, 'input': ['.'], 'key': 'MD5E-s747--e115e1ae636c7539dcc86d1a6f250ae7.txt', 'error-messages': ['  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)', '  RuntimeError(Failed to download from any of 1 locations)'], 'file': 'release-notes/tfMRI_WM_unproc.txt'} 
+[DEBUG] could not perform all requested actions: IncompleteResultsError(Command did not complete successfully. 80 failed:
+[{'action': 'get',
+  'annexkey': 'MD5E-s5834--ae565ae6d99bcacc8fa931e4eb2684db.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_Diffusion_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s45268--68cdf4349068509eef114119c3f20e62.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_Structural_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s43570--1e38f1f068109397ce5c084d8b0830db.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_Structural_preproc_extended.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s4127--465ae74dac5f1c43998bd03213eea52d.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_Structural_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s373476--ef78ddddb4bf97f2080bc525423dc36d.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST1_fixextended.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s4735--8636724d1ac6244ea482da86c632131c.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST1_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s2731--3fe0deb4ed20d9ea4fd896b827611f15.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST1_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s440430--70e1a8532512f5ea03e8dc467362878c.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST2_fixextended.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s4734--90fbb6ed3dcce15c36889c27e2393df3.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST2_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s2731--108162f3d0cddd40db465f575fb7cb8f.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST2_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s963--9301bbb20ada157f9d9270d12c3843ba.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_rfMRI_REST_fix.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20066--9441ebf4e31c28d5c77df1da03154a27.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_EMOTION_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20066--98100ba4cb953234d7f93c6152a1c7e0.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_EMOTION_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s7108--8d701057d6a28cb3d99548a594d0529b.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_EMOTION_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s4469--add689e6ecaba39ebe116e2602efe0ff.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_EMOTION_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20244--849fd5bde80e529d6949b1e59e916f18.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_GAMBLING_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20244--6c2c97c05a33c6b805c9aa1bd247cfee.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_GAMBLING_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s8121--f10f0f6516880c3a0ecc113f80dce989.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_GAMBLING_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s5531--c93fccb6652b99d05a9dd23874929c3b.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_GAMBLING_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20244--112e3f0c82526bc98bca225ac0fa8390.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_LANGUAGE_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20244--f378dd8015a1b4958d025cfb64b1d3d2.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_LANGUAGE_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s9446--9d45489f9421c2682c1078f0e063cde4.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_LANGUAGE_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s6958--f8d602aab0b2ba080f5260912bc70559.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_LANGUAGE_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s79273--7494a92d69a021a120ad4edec98f3d1d.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_MOTOR_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s79273--bd58afa95513537254e93017572069c4.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_MOTOR_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s7741--29ea6b6f58682f54858c384a34bd2997.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_MOTOR_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s5237--5d1b07bd08ef389420334a265b687076.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_MOTOR_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20600--5caddcff9305441cfa56443e651525ba.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_RELATIONAL_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s20600--91de0059293728f217eb19d184468ddf.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_RELATIONAL_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s7648--a207bbc0e3f660a9b0fc91bead4560db.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_RELATIONAL_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s4947--0c82d7f1c32518aee527500381a069b7.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_RELATIONAL_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s19888--17ddf97afde7de9daa5780b1a993917c.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_SOCIAL_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s19888--9753484faf9a4a110bb70ea74698cf79.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_SOCIAL_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s7662--1bd63a20e97deabe53c9f75ae6922b04.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_SOCIAL_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s5105--f92f9b0f78ceab6e19790943458b8e1d.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_SOCIAL_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s88788--53adc050c9ab1e066e2c0581ea1f93fb.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_WM_analysis_s2.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s88788--ef3ca1ba4495735a6a1523dab998da74.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_WM_analysis_s4.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s11233--3a8da47b31406a4eb3b3e129f0210eb7.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_WM_preproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s9171--ec2ed5b9c5261d184c60ca90c71eb3bc.json',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/.xdlm/814548_3T_tfMRI_WM_unproc.json',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s748--a01215ee1b3b3a2a3307ffb40c5427bc.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/Diffusion_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s786--09d38e5ad2c4da76f6a2e048eda0032a.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/ReleaseNotes.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1045--3a62abadb9e8fefb614e711b74e05e1d.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/Structural_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s2394--11ebd69a726042eeb87cea4b72c88515.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/Structural_preproc_extended.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s749--ea0ad5d8774ade5183bf9c2c7cb3396f.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/Structural_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s837--e08eb09077c8573b59b8aff3499db300.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/bedpostx.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s960--3d9c587afd77a2658da97225667f29a3.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST1_fixextended.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1058--479110b820b326a696842c4a53f11085.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST1_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s750--f7538bb3387c89a1420c33f1ea8a86b2.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST1_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s960--e2be3693a3b4bda04fb3eb02937d0fcf.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST2_fixextended.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1058--0b1e5983ec2cb206c2badcaeb232874e.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST2_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s750--00287aa74ee715a41142ee0c47b98226.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST2_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1030--93b241f7391813c43b51a7358c91968c.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/rfMRI_REST_fix.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s971--61b163fc4143042e5add45c12c6bec5c.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_EMOTION_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s971--96981ca900dd20b92f6ac65d741e1ebe.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_EMOTION_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1060--8ede939ffc8258d1f814dd51ad50fba6.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_EMOTION_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s752--1feda695d7bd01ccf46825f11cb0d0a1.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_EMOTION_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s972--f7b46ce14689d748fde214705ffc4b5e.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_GAMBLING_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s972--d22053374247471a820437f16a94ed14.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_GAMBLING_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1061--187c8ef139e87c5074fa3e6400fd3115.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_GAMBLING_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s753--15445739a657ee560f8ba671f124f060.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_GAMBLING_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s972--7225cd1265deece5690a17c6468909da.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_LANGUAGE_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s972--e8b7cd82fc6af029e57657519bfbbc9d.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_LANGUAGE_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1061--b3d912b3c02f3c8e432d1ce12f8ca10a.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_LANGUAGE_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s753--7aee4876dd199b86d81c2a481237013b.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_LANGUAGE_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s969--ed277812e6d8b60b131a2553e045ace1.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_MOTOR_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s969--7b97c76cae1c26965f4c9533b050a33e.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_MOTOR_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1058--a01d457863c9ca9130fdd6b79fb62307.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_MOTOR_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s750--edd3249eec57757b247e79b8042afbf7.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_MOTOR_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s974--af227d4650ef655e2f5b02c69c5c82de.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_RELATIONAL_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s974--e78c6438be26351c92a634afbec8eda8.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_RELATIONAL_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1063--579748ed0af2365c3163f62a9078866b.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_RELATIONAL_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s755--9409396ce93d3cc8d6bb5dd31668e091.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_RELATIONAL_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s970--bdcc643fc7c325608cce7a3f7ab9700b.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_SOCIAL_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s970--4c5213b6884b7253794eda8c89af8b14.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_SOCIAL_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1059--37ca4ae985ff43130178b4acfc29beb4.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_SOCIAL_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s751--f7faedf580d7df624b861e550094e31b.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_SOCIAL_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s966--ce4a24d68eed4e72b07e5a3c0ffbafb4.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_WM_analysis_s2.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s966--d1a149e1aee3a9897cf1e09e674e3728.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_WM_analysis_s4.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s1055--85e50cfd0a78e19e00a1ed9d93677b56.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_WM_preproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'},
+ {'action': 'get',
+  'annexkey': 'MD5E-s747--e115e1ae636c7539dcc86d1a6f250ae7.txt',
+  'error_message': 'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)\n'
+                   'RuntimeError(Failed to download from any of 1 locations)',
+  'path': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess/HCP1200/814548/release-notes/tfMRI_WM_unproc.txt',
+  'refds': '/home/zhangxing/AllDatasets/human-connectome-project-openaccess',
+  'status': 'error',
+  'type': 'file'}])
